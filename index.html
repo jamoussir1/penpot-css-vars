@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables Export</title>
+  </head>
+  <body>
+    <h1 class="headline-m">CSS Variables Export</h1>
+    <p id="summary" class="body-s">Reading your library…</p>
+
+    <textarea
+      id="output"
+      class="input"
+      readonly
+      spellcheck="false"
+      aria-label="Generated CSS"
+    ></textarea>
+
+    <div class="actions">
+      <button id="refresh" type="button" data-appearance="secondary">Refresh</button>
+      <button id="copy" type="button" data-appearance="secondary">Copy</button>
+      <button id="download" type="button" data-appearance="primary">Download .css</button>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

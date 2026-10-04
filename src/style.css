@@ -1,0 +1,39 @@
+/* Penpot's official plugin styles: buttons, inputs and light/dark theme variables. */
+@import "@penpot/plugin-styles/styles.css";
+
+body {
+  margin: 0;
+  padding: var(--spacing-16, 16px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-12, 12px);
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
+}
+
+#summary {
+  margin: 0;
+}
+
+#output {
+  flex: 1;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  gap: var(--spacing-8, 8px);
+}
+
+.actions button {
+  flex: 1;
+}

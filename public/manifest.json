@@ -1,0 +1,7 @@
+{
+  "name": "CSS Variables Export",
+  "description": "Exports the colors and typographies of your file's local library as CSS custom properties (:root variables) and typography utility classes.",
+  "code": "plugin.js",
+  "icon": "icon.png",
+  "permissions": ["content:read", "library:read", "allow:downloads"]
+}
